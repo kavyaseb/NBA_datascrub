@@ -3,7 +3,7 @@ import requests
 import pymysql
 
 # Open database connection
-db = pymysql.connect("198.38.92.158","directf2_devuser","WELcome!@#123","directf2_dev_fra" )
+db = pymysql.connect("***.**.**.***","user","password","db" )
 try:
     print("connection succeeded")
 except:
